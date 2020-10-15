@@ -46,25 +46,21 @@
                                                                             After finishing the code and learning what all of the concepts are and what everything does, I can look back on this as a very positive experience, I quite enjoy the formatting of HTML, its very user friendly.
                 </p>
                 <table>
-                    <col>
-                    <colgroup span="2"></colgroup>
-                    <colgroup span="3"></colgroup>
+                    <caption>My Current Courses</caption>
                     <thead>
                     <tr>
-                        <th colspan="2">Term</th>
-                        <th>Course</th>
+                        <th rowspan="2" scope="col">Term</th>
+                        <th colspan="3" scope="colgroup">Course</th>
                     </tr>
-                    </thead>
-                    <tbody>
                     <tr>
                         <th scope="col">Code</th>
                         <th scope="col">Name</th>
                         <th scope="col">Hrs/Week</th>
                     </tr>
+                    </thead>
+                    <tbody>
                     <tr>
-                        <th colspan="6">Fall</th>
-                    </tr>
-                    <tr>
+                        <th rowspan="6" scope="rowgroup">Fall</th>
                         <td>CSD105</td>
                         <td>Python</td>
                         <td>3</td>
@@ -95,9 +91,7 @@
                         <td>2</td>
                     </tr>
                     <tr>
-                        <th colspan="5">Winter</th>
-                    </tr>
-                    <tr>
+                        <th rowspan="5" scope="rowgroup">Winter</th>
                         <td>CSA103</td>
                         <td>Business Applications I</td>
                         <td>4</td>
@@ -122,11 +116,13 @@
                         <td>PC Hardware and Networking</td>
                         <td>5</td>
                     </tr>
-                    <tr>
-                        <th rowspan="3">Total</th>
-                        <td>41</td>
-                    </tr>
                     </tbody>
+                    <tfoot>
+                        <tr>
+                            <th colspan="3" scope="row">Total</th>
+                            <td>41</td>
+                        </tr>
+                    </tfoot>
                 </table>
                 <h2>My Favourite Things</h2>
                 <a href="https://polyphia.com/">
