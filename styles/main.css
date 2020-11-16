@@ -3,6 +3,7 @@ body width-wrap {
     margin: auto;
     background-color: #868B8E;
     z-index: 1;
+    position: relative;
 }
 
 body width-wrap {
@@ -12,6 +13,7 @@ body width-wrap {
     padding-left: 2em;
     padding-bottom: 3em;
     z-index: 1;
+    position: relative;
 }
 
 hr {
@@ -25,4 +27,5 @@ hr {
 body {
     background-color: #940000;
     z-index: 2;
+    position: relative;
 }
