@@ -1,11 +1,11 @@
 *{
-    width wrap: 960px;
+    width: 960px;
     margin: auto;
     background-color: #868B8E;
 }
 
 *{
-    border: 1px, 0.3, solid black;
+    border: 1px, 0.3 solid black;
     border-top-style: none;
     padding-right: 2em;
     padding-left: 2em;
