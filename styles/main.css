@@ -1,10 +1,10 @@
-width-wrap{
+width-wrap {
     width: 960px;
     margin: auto;
     background-color: #868B8E;
 }
 
-width-wrap{
+width-wrap {
     border: 1px, 0.3 solid black;
     border-top-style: none;
     padding-right: 2em;
@@ -12,7 +12,7 @@ width-wrap{
     padding-bottom: 3em;
 }
 
-hr{
+hr {
     max-width: 890px;
     min-width: 300px;
     margin-top: 3em;
@@ -20,7 +20,7 @@ hr{
     border-bottom-style: dotted;
 }
 
-body{
+body {
     background-color: #74112f;
 
 }
