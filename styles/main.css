@@ -70,7 +70,7 @@ fieldset label {
 }
 
 input:invalid {
-    background-color: #c3dbd4;
+    background-color: #666666;
 }
 
 input:valid {
