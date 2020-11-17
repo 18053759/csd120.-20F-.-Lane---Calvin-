@@ -23,7 +23,7 @@ nav a {
     margin: -4px 1em 0;
     border-top: 4px solid rgb(0, 0, 0, 0);
     padding: 1em 0 0.5em;
-    color: #666666;
+    color: #e61829;
 }
 
 nav a:hover {
@@ -86,4 +86,12 @@ input:valid {
     border-style: none solid solid solid;
     border-color: rgb(0, 0, 0, 0.3);
     background-color: #464545;
+}
+
+body {
+    color: rgb(0, 0, 255);
+}
+
+footer {
+    color: rgb(255, 0, 0);
 }
