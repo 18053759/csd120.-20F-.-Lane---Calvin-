@@ -1,6 +1,6 @@
 header {
     border-top: 4px solid rgb(0, 0, 0, 0.1);
-    margin: 0 -2em 0;
+    margin: 0 -2em;
 }
 
 header nav {
@@ -29,7 +29,6 @@ nav a {
 nav a:hover {
     border-top: 4px solid #0044ff;
 }
-
 
 
 th,
