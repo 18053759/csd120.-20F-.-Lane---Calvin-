@@ -135,8 +135,8 @@ body {
 }
 
 h1 {
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(186,52,39,1) 65%, rgba(255,3,3,1) 100%);
+    background: rgb(180,66,66);
+background: linear-gradient(90deg, rgba(180,66,66,1) 0%, rgba(173,11,11,1) 38%, rgba(136,35,140,1) 51%, rgba(199,6,148,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
