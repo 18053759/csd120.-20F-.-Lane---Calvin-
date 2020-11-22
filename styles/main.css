@@ -12,7 +12,7 @@ dt::after {
 }
 
 ::selection {
-    background-color: rgba(255,255,255,0.3);
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 header {
@@ -119,13 +119,12 @@ footer hr {
     margin-top: 3em;
     margin-bottom: 2em;
     border: none;
-    border-bottom: 3px dotted rgba(0,0,0,0.3);
+    border-bottom: 3px dotted rgba(0, 0, 0, 0.3);
 }
 
 main a {
     color: #FF1C2FD8
 }
-
 
 
 body {
@@ -175,13 +174,13 @@ iframe {
     border-bottom-left-radius: 2em;
 }
 
-fieldset>ul {
+fieldset > ul {
     list-style: none;
     padding: 0;
 }
 
 
-header>nav a {
+header > nav a {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -193,7 +192,7 @@ header>nav a:hover {
 }
 
 *h1 {
-    background: rgb(180,66,66);
+    background: rgb(180, 66, 66);
     background: linear-gradient(90deg, rgba(180,66,66,1) 0%, rgba(173,11,11,1) 38%, rgba(136,35,140,1) 51%, rgba(199,6,148,1) 100%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
