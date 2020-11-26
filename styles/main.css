@@ -92,7 +92,7 @@ input:invalid {
 }
 
 input:valid {
-    background-color: none;
+    background-color: transparent;
 }
 
 
@@ -316,5 +316,29 @@ footer hr {
 }
 
 .gallery a:hover {
-    transform: scale(1.1,1.1);
+    transform: scale(1.1 1.1);
+}
+
+.paperclip {
+    position: absolute;
+    top: -5%;
+    right: 0;
+    transform: rotate(-30deg);
+}
+
+.paperclip {
+    background: none;
+    box-shadow: none;
+    width: 20%;
+}
+
+[title|="Back to top"] {
+    position: sticky;
+    margin-left: -25px;
+    display: inline-block;
+    bottom: 10px;
+}
+
+[title|="Back to top"]:hover {
+    transform: rotate(45deg);
 }
