@@ -27,12 +27,15 @@ header nav {
 
 header li {
     display: inline;
+    list-style: none;
     padding: 1em 1em 0.5em;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 nav a {
@@ -240,4 +243,53 @@ footer hr {
     margin-bottom: 2em;
     border: none;
     border-bottom: 3px dotted #710019;
+}
+
+.favourites {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favourites h3 {
+    padding: 0 1rem 0 1rem; 
+}
+
+.favourites div {
+    display: none;
+}
+
+.favourites [type="radio"] {
+    display: none;
+}
+
+.favourites input+label>h3 {
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(0, 0, 0, 0);
+    margin-bottom: 0;
+}
+
+.favourites input+label>h3:hover {
+    border-bottom: 3px solid #FF1C2FD8;
+    color: #FF1C2FD8;
+    margin-bottom: 0;
+}
+
+.favourites input+label {
+    order: -1;
+    color: rgb(255, 255, 255);
+}
+
+.favourites input:checked+label+div{
+    display: block;
+    width: 100%;
+    color: #FF1C2FD8;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.favourites input:checked+label>h3 {
+    color: #FF1C2FD8;
 }
