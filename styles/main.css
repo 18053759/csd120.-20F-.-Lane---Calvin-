@@ -332,6 +332,11 @@ a .paperclip {
     width: 20%;
 }
 
+.bio a{
+    display: block;
+    position: relative;
+}
+
 [title|="Back to top"] {
     position: sticky;
     margin-left: -25px;
