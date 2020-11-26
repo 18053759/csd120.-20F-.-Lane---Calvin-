@@ -319,14 +319,14 @@ footer hr {
     transform: scale(1.1 1.1);
 }
 
-.paperclip {
+a .paperclip {
     position: absolute;
     top: -5%;
     right: 0;
     transform: rotate(-30deg);
 }
 
-.paperclip {
+a .paperclip {
     background: none;
     box-shadow: none;
     width: 20%;
