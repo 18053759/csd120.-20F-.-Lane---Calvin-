@@ -347,3 +347,7 @@ a .paperclip {
 [title|="Back to top"]:hover {
     transform: rotate(45deg);
 }
+
+img {
+    max-width: 100%;
+}
