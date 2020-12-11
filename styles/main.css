@@ -427,6 +427,11 @@ img {
 
 }
 
+header nav label,
+header nav input {
+    display: none;
+}
+
 @media screen and (max-width: 725px) {
     .top ul {
         flex-direction: column;
