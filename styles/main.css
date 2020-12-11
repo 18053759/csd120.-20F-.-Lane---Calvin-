@@ -31,11 +31,14 @@ header nav {
 
 header li {
     display: inline;
+    list-style: none;
 }
 
 nav ul {
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
 }
 
 header nav a {
@@ -93,7 +96,7 @@ input:invalid {
 }
 
 input:valid {
-    background-color: none;
+    background-color: transparent;
 }
 
 
@@ -243,4 +246,112 @@ footer hr {
     margin-bottom: 2em;
     border: none;
     border-bottom: 3px dotted #710019;
+}
+
+.favourites {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.favourites h3 {
+    padding: 0 1rem 0 1rem; 
+}
+
+.favourites div {
+    display: none;
+}
+
+.favourites [type="radio"] {
+    display: none;
+}
+
+.favourites input+label>h3 {
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgb(0, 0, 0, 0);
+    margin-bottom: 0;
+}
+
+.favourites input+label>h3:hover {
+    border-bottom: 3px solid #FF1C2FD8;
+    color: #FF1C2FD8;
+    margin-bottom: 0;
+}
+
+.favourites input+label {
+    order: -1;
+    color: rgb(255, 255, 255);
+}
+
+.favourites input:checked+label+div{
+    display: block;
+    width: 100%;
+    color: #FF1C2FD8;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.favourites input:checked+label>h3 {
+    color: #FF1C2FD8;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.gallery img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery a:hover {
+    transform: scale(1.1);
+}
+
+.row-span-2 {
+    grid-row: span 2;
+
+}
+
+.gallery .col-span-2 {
+    grid-column: span 2;
+}
+
+.gallery a:hover {
+    transform: scale(1.1 1.1);
+}
+
+.paperclip {
+    position: absolute;
+    top: -5%;
+    right: 0;
+    transform: rotate(-30deg);
+}
+
+a .paperclip {
+    background: none;
+    box-shadow: none;
+    width: 20%;
+}
+
+.bio a{
+    display: block;
+    position: relative;
+}
+
+a[href="#top"] {
+    position: sticky;
+    margin-left: -25px;
+    display: inline-block;
+    bottom: 10px;
+}
+
+a[href="#top"]:hover {
+    transform: rotate(45deg);
 }
