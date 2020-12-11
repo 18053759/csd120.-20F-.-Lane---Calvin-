@@ -403,3 +403,26 @@ img {
      }
 }
 
+@media screen and (max-width: 800px) {
+    .favourites {
+        flex-direction: column;
+    }
+
+    .favourites input+label {
+        order: 0;
+        color: #FF1C2FD8;
+    }
+
+    .favourites input+label>h3 {
+        color: #FF1C2FD8;
+        border-bottom: 3px solid rgb(0, 0, 0, 0);
+        margin-bottom: 0;
+    }
+
+    .favourites input+label>h3:hover {
+        border-bottom: 3px solid #FFFFFF;
+        color: #FFFFFF;
+        margin-bottom: 0;
+    }
+
+}
