@@ -426,3 +426,23 @@ img {
     }
 
 }
+
+@media screen and (max-width: 725px) {
+    #top ul {
+        flex-direction: column;
+        align-items: center;
+        height: 0;
+        transition: height 500ms;
+        overflow: hidden;
+    }
+
+    #top a {
+        padding-top: 0.5em;
+        border-top: none;
+    }
+
+    #top a:hover {
+        border-top: none;
+        text-decoration: underline;
+    }
+}
