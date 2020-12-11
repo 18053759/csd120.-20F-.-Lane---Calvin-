@@ -428,7 +428,7 @@ img {
 }
 
 @media screen and (max-width: 725px) {
-    #top ul {
+    .top ul {
         flex-direction: column;
         align-items: center;
         height: 0;
@@ -436,21 +436,21 @@ img {
         overflow: hidden;
     }
 
-    #top a {
+    .top a {
         padding-top: 0.5em;
         border-top: none;
     }
 
-    #top a:hover {
+    .top a:hover {
         border-top: none;
         text-decoration: underline;
     }
 
-    #menu-toggle {
+    .menu-toggle {
         display: none;
     }
 
-    .sandwich-icon {
+    label.sandwich-icon {
         display: block;
         width: 40px; 
         height: 25px;
@@ -459,12 +459,12 @@ img {
         transition: border-top 200ms;
     }
 
-    .sandwich-icon:hover {
+    label.sandwich-icon:hover {
         cursor: pointer;
     }
 
-    .sandwich-icon::after,
-    .sandwich-icon::before {
+    label.sandwich-icon::after,
+    label.sandwich-icon::before {
         content: "";
         display: block;
         width: 40px;
@@ -473,15 +473,15 @@ img {
         transition: transform 200ms;
     }
 
-    .sandwich-icon label {
+    label.sandwich-icon {
         position: relative;
     }
 
-    .sandwich-icon::before {
+    label.sandwich-icon::before {
         top: 10px;
     }
 
-    .sandwich-icon::after {
+    label.sandwich-icon::after {
         top: 30px;
     }
 
@@ -513,7 +513,7 @@ img {
         display: none;
     }
 
-    .sandwich-icon {
+    label.sandwich-icon {
         display: block;
     }
 }
