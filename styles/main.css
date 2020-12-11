@@ -370,3 +370,36 @@ a[href="#top"]:hover {
 img {
     max-width: 100%;
 }
+
+@media screen and (max-width: 520px) {
+
+    .bio table+thead,tfoot,
+    th {
+        display: none;
+    }
+
+    .bio table td {
+        display: block;
+        padding: 0 1rem;
+    }
+
+    .bio table {
+        caption-side: top;
+    }
+
+    .bio table tr td:first-of-type {
+        padding-top: 0.3em;
+        font-weight: bold;
+    }
+
+    .biotable tr td:last-of-type {
+        padding-bottom: 0.3em;
+        font-style: italic;
+        font-size: 0.8em;
+    }
+
+    .biotable tr td:last-of-type {
+        content: "hrs/wk";
+     }
+}
+
