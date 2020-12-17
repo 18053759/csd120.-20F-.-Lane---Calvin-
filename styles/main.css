@@ -484,11 +484,11 @@ header nav input {
     }
 
     label.sandwich-icon::before {
-        top: 10px;
+        top: 5px;
     }
 
     label.sandwich-icon::after {
-        top: 30px;
+        top: 15px;
     }
 
     #top input[type=checkbox]:checked+label+ul {
@@ -504,13 +504,13 @@ header nav input {
 
     #top input[type=checkbox]:checked+.sandwich-icon::before {
         border-top: 5px solid #FF1C2FD8;
-        transform: rotate(45deg);
+        transform: rotate(45deg) translate(-20px, -15px);
         top: 30px;
     }
 
     #top input[type=checkbox]:checked+.sandwich-icon::after {
         border-top: 5px solid #FF1C2FD8;
-        transform: rotate(-45deg);
+        transform: rotate(-45deg) translate(5px, -10px);
     }
 }
 
