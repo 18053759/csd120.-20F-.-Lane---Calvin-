@@ -299,7 +299,7 @@ footer hr {
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     grid-gap: 10px;
 }
 
@@ -373,8 +373,9 @@ img {
 
 @media screen and (max-width: 520px) {
 
-    .bio table+thead,tfoot,
-    th {
+    .bio table thead,
+    .bio table tfoot,
+    .bio table th {
         display: none;
     }
 
@@ -392,13 +393,13 @@ img {
         font-weight: bold;
     }
 
-    .biotable tr td:last-of-type {
+    .bio table tr td:last-of-type {
         padding-bottom: 0.3em;
         font-style: italic;
         font-size: 0.8em;
     }
 
-    .biotable tr td:last-of-type {
+    .bio table tr td:last-of-type::after {
         content: "hrs/wk";
      }
 }
@@ -433,7 +434,7 @@ header nav input {
 }
 
 @media screen and (max-width: 725px) {
-    .top ul {
+    #top ul {
         flex-direction: column;
         align-items: center;
         height: 0;
@@ -441,17 +442,17 @@ header nav input {
         overflow: hidden;
     }
 
-    .top a {
+    #top a {
         padding-top: 0.5em;
         border-top: none;
     }
 
-    .top a:hover {
+    #top a:hover {
         border-top: none;
         text-decoration: underline;
     }
 
-    .menu-toggle {
+    #menu-toggle {
         display: none;
     }
 
@@ -483,11 +484,11 @@ header nav input {
     }
 
     label.sandwich-icon::before {
-        top: 10px;
+        top: 5px;
     }
 
     label.sandwich-icon::after {
-        top: 30px;
+        top: 15px;
     }
 
     #top input[type=checkbox]:checked+label+ul {
@@ -503,13 +504,13 @@ header nav input {
 
     #top input[type=checkbox]:checked+.sandwich-icon::before {
         border-top: 5px solid #FF1C2FD8;
-        transform: rotate(45deg);
+        transform: rotate(45deg) translate(-20px, -15px);
         top: 30px;
     }
 
     #top input[type=checkbox]:checked+.sandwich-icon::after {
         border-top: 5px solid #FF1C2FD8;
-        transform: rotate(-45deg);
+        transform: rotate(-45deg) translate(5px, -10px);
     }
 }
 
